@@ -14,7 +14,7 @@ vignette: >
   %\VignetteEncoding[utf8]{inputenc}
 ---
 
-bibliography: "`r system.file(package='dummychapter1', 'vignettes', 'bibliography.bib')`"
+ bibliography: "`r system.file(package='dummychapter1', 'vignettes', 'bibliography.bib')`"
 
 
 # Annotation of inter-sample epigenetic variation with COCOA
