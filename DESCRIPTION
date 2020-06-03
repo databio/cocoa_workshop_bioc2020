@@ -48,6 +48,7 @@ biocViews: Epigenetics, DNAMethylation, ATACSeq, DNaseSeq, MethylSeq, Methylatio
             PrincipalComponent, GenomicVariation, GeneRegulation, GenomeAnnotation, 
             SystemsBiology, FunctionalGenomics, ChIPSeq, 
             Sequencing, ImmunoOncology
-URL: http://code.databio.org/COCOA/
+URL: https://j-lawson.github.io/COCOA_workshop_BIOC2020/
 BugReports: https://github.com/databio/COCOA
 RoxygenNote: 7.1.0
+DockerImage: johntlawson/COCOA_workshop_BIOC2020
