@@ -41,7 +41,8 @@ Suggests:
     BiocStyle,
     rmarkdown,
     AnnotationHub,
-    LOLA
+    LOLA,
+    pkgdown
 VignetteBuilder: knitr
 License: GPL-3
 biocViews: Epigenetics, DNAMethylation, ATACSeq, DNaseSeq, MethylSeq, MethylationArray,
@@ -51,4 +52,4 @@ biocViews: Epigenetics, DNAMethylation, ATACSeq, DNaseSeq, MethylSeq, Methylatio
 URL: https://j-lawson.github.io/COCOA_workshop_BIOC2020/
 BugReports: https://github.com/databio/COCOA_workshop_BIOC2020
 RoxygenNote: 7.1.0
-DockerImage: johntlawson/cocoa_workshop_bioc2020
+DockerImage: johntlawson/cocoa_workshop_bioc2020:latest
