@@ -1,6 +1,6 @@
 Package: COCOA.workshop.BIOC2020
-Version: 0.99.1
-Date: 2020-05-03
+Version: 0.99.2
+Date: 2020-05-08
 Title: Coordinate Covariation Analysis
 Description: COCOA is a method for understanding epigenetic variation among samples.
     COCOA can be used with epigenetic data that includes
@@ -49,7 +49,7 @@ biocViews: Epigenetics, DNAMethylation, ATACSeq, DNaseSeq, MethylSeq, Methylatio
             PrincipalComponent, GenomicVariation, GeneRegulation, GenomeAnnotation, 
             SystemsBiology, FunctionalGenomics, ChIPSeq, 
             Sequencing, ImmunoOncology
-URL: https://j-lawson.github.io/COCOA_workshop_BIOC2020/
+URL: http://databio.org/cocoa_workshop_bioc2020/
 BugReports: https://github.com/databio/COCOA_workshop_BIOC2020
 RoxygenNote: 7.1.0
-DockerImage: johntlawson/cocoa_workshop_bioc2020:latest
+DockerImage: databio/cocoa_workshop_bioc2020:latest

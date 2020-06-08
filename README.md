@@ -21,7 +21,13 @@ will finish with some best practices for covariation-based analyses.
 
 ### Background Reading
 
-* The COCOA package vignette: http://bioconductor.org/packages/release/bioc/vignettes/COCOA/inst/doc/IntroToCOCOA.html
+* Taking a look at the workshop vignette ahead of time will help familiarize you 
+with the concepts and methods used in COCOA 
+
+## Workshop and Docker links
+
+* [Workshop](http://databio.org/cocoa_workshop_bioc2020/)
+* [Docker image](https://hub.docker.com/repository/docker/johntlawson/cocoa_workshop_bioc2020)
 
 
 ## Workshop Participation
