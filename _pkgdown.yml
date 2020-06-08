@@ -1,4 +1,4 @@
-url: https://j-lawson.github.io/COCOA_workshop_BIOC2020
+url: https://j-lawson.github.io/cocoa_workshop_bioc2020
 
 template:
   params:
@@ -13,6 +13,6 @@ home:
 navbar:
   right:
    - icon: fa-github
-     href: https://github.com/databio/COCOA_workshop_BIOC2020
+     href: https://github.com/databio/cocoa_workshop_bioc2020
      
 
