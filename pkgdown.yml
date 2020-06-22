@@ -2,7 +2,7 @@ pandoc: 2.7.3
 pkgdown: 1.5.1
 pkgdown_sha: ~
 articles: []
-last_built: 2020-06-08T19:27Z
+last_built: 2020-06-22T17:54Z
 urls:
   reference: http://databio.org/COCOA_workshop_BIOC2020//reference
   article: http://databio.org/COCOA_workshop_BIOC2020//articles
