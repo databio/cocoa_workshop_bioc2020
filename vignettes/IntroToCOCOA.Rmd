@@ -14,12 +14,12 @@ vignette: >
   %\VignetteEncoding[utf8]{inputenc}
 ---
 
- bibliography: "`r system.file(package='dummychapter1', 'vignettes', 'bibliography.bib')`"
-
 
 # Annotation of inter-sample epigenetic variation with COCOA
 
-## John Lawson (jtl2hk@virginia.edu)
+## Instructor
+
+* John Lawson (jtl2hk@virginia.edu)
 
 ## Workshop Description
 
@@ -60,8 +60,8 @@ GenomicRanges
 |------------------------------|------|
 | Introduction to COCOA        | 15m  |
 | Annotating DNA methylation variation  | 20m  |
-| Annotating chromatin accessibility variation | 20m   |
-| Best practices               | 5m  |
+| Annotating chromatin accessibility variation | 15m   |
+| Best practices               | 10m  |
 
 ## Workshop goals and objectives
 
