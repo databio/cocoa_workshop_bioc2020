@@ -1,6 +1,6 @@
 ---
 title: "Introduction to Coordinate Covariation Analysis"
-author: "John Lawson"
+author: John Lawson^[jtl2hk@virginia.edu]
 date: "`r Sys.Date()`"
 output: 
   rmarkdown::html_document:
@@ -17,11 +17,14 @@ vignette: >
 
 # Annotation of inter-sample epigenetic variation with COCOA
 
-## Instructor
+Authors:
+    Author John Lawson^[University of Virginia].
+     <br/>
+Last modified: 16 July, 2020.
 
-* John Lawson (jtl2hk@virginia.edu)
+## Overview
 
-## Workshop Description
+### Description
 
 This workshop will detail how to annotate inter-sample epigenetic 
 variation with publicly available gene regulatory information, 
@@ -61,7 +64,7 @@ GenomicRanges
 | Introduction to COCOA        | 15m  |
 | Annotating DNA methylation variation  | 20m  |
 | Annotating chromatin accessibility variation | 15m   |
-| Best practices               | 10m  |
+| Best practices               | 5m  |
 
 ## Workshop goals and objectives
 
