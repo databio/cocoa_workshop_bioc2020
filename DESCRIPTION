@@ -1,5 +1,5 @@
 Package: COCOA.workshop.BIOC2020
-Version: 0.99.5
+Version: 0.99.6
 Date: 2020-07-16
 Title: Annotating inter-sample DNA methylation and ATAC-seq variation with COCOA
 Description: COCOA is a method for understanding epigenetic variation among samples.

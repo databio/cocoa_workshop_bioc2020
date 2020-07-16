@@ -1,6 +1,6 @@
 # Annotation of inter-sample epigenetic variation with COCOA
 
-# John Lawson (jtl2hk@virginia.edu)
+Instructor: John Lawson, University of Virginia (jtl2hk@virginia.edu)
 
 # Workshop Description
 
@@ -45,9 +45,9 @@ GenomicRanges
 
 | Activity                     | Time |
 |------------------------------|------|
-| Introduction to COCOA        | 15m  |
+| Introduction to COCOA        | 10m  |
 | Annotating DNA methylation variation  | 20m  |
-| Annotating chromatin accessibility variation | 20m   |
+| Annotating chromatin accessibility variation | 15m   |
 | Best practices               | 5m  |
 
 # Workshop goals and objectives
@@ -66,3 +66,10 @@ GenomicRanges
 * identify region sets that display DNA methylation and chromatin accessibility variation in breast cancer
 * create region set score null distributions using permutations
 * create "meta-region" plots to visualize epigenetic variation in regions of interest compared to the surrounding genome
+
+# Using the workshop docker image
+
+* Run `docker run -e PASSWORD=yourpassword -p 8787:8787 -d —rm databio/cocoa_workshop_bioc2020`. Use `-v $(pwd):/home/rstudio` argument to map your local directory to the container.
+* Log in to RStudio at [http://localhost:8787](http://localhost:8787) using username `rstudio` and password `yourpassword`. Note that on Windows you need to provide your localhost IP address like `http://191.163.92.108:8787/` - find it using `docker-machine ip default` in Docker's terminal.
+* Run `browseVignettes(package = "COCOA.workshop.BIOC2020")`. Click on one of the links, "HTML", "source", "R code".
+    * In case of `The requested page was not found` error, add `help/` to the URL right after the hostname, e.g., [http://localhost:8787/help/library/COCOA.workshop.BIOC2020/doc/IntroToCOCOA.html](http://localhost:8787/help/library/COCOA.workshop.BIOC2020/doc/IntroToCOCOA.html). This is a [known bug](https://github.com/rocker-org/rocker-versioned/issues/178).
