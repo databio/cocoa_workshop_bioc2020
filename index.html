@@ -50,7 +50,7 @@
       </button>
       <span class="navbar-brand">
         <a class="navbar-link" href="index.html">COCOA.workshop.BIOC2020</a>
-        <span class="version label label-default" data-toggle="tooltip" data-placement="bottom" title="Released version">0.99.4</span>
+        <span class="version label label-default" data-toggle="tooltip" data-placement="bottom" title="Released version">0.99.8</span>
       </span>
     </div>
 
@@ -101,10 +101,7 @@
 <div id="annotation-of-inter-sample-epigenetic-variation-with-cocoa" class="section level1">
 <div class="page-header"><h1 class="hasAnchor">
 <a href="#annotation-of-inter-sample-epigenetic-variation-with-cocoa" class="anchor"></a>Annotation of inter-sample epigenetic variation with COCOA</h1></div>
-</div>
-<div id="john-lawson-jtl2hkvirginiaedu" class="section level1">
-<h1 class="hasAnchor">
-<a href="#john-lawson-jtl2hkvirginiaedu" class="anchor"></a>John Lawson (<a href="mailto:jtl2hk@virginia.edu" class="email">jtl2hk@virginia.edu</a>)</h1>
+<p>Instructor: John Lawson, University of Virginia (<a href="mailto:jtl2hk@virginia.edu" class="email">jtl2hk@virginia.edu</a>)</p>
 </div>
 <div id="workshop-description" class="section level1">
 <h1 class="hasAnchor">
@@ -155,7 +152,7 @@
 <tbody>
 <tr class="odd">
 <td>Introduction to COCOA</td>
-<td>15m</td>
+<td>10m</td>
 </tr>
 <tr class="even">
 <td>Annotating DNA methylation variation</td>
@@ -163,7 +160,7 @@
 </tr>
 <tr class="odd">
 <td>Annotating chromatin accessibility variation</td>
-<td>20m</td>
+<td>15m</td>
 </tr>
 <tr class="even">
 <td>Best practices</td>
@@ -197,6 +194,19 @@
 <li>create “meta-region” plots to visualize epigenetic variation in regions of interest compared to the surrounding genome</li>
 </ul>
 </div>
+</div>
+<div id="using-the-workshop-docker-image" class="section level1">
+<h1 class="hasAnchor">
+<a href="#using-the-workshop-docker-image" class="anchor"></a>Using the workshop docker image</h1>
+<ul>
+<li>Run <code>docker run -e PASSWORD=yourpassword -p 8787:8787 -d —rm databio/cocoa_workshop_bioc2020</code>. Use <code>-v $(pwd):/home/rstudio</code> argument to map your local directory to the container.</li>
+<li>Log in to RStudio at <a href="http://localhost:8787">http://localhost:8787</a> using username <code>rstudio</code> and password <code>yourpassword</code>. Note that on Windows you need to provide your localhost IP address like <code>http://191.163.92.108:8787/</code> - find it using <code>docker-machine ip default</code> in Docker’s terminal.</li>
+<li>Run <code><a href="https://rdrr.io/r/utils/browseVignettes.html">browseVignettes(package = "COCOA.workshop.BIOC2020")</a></code>. Click on one of the links, “HTML”, “source”, “R code”.
+<ul>
+<li>In case of <code>The requested page was not found</code> error, add <code>help/</code> to the URL right after the hostname, e.g., <a href="http://localhost:8787/help/library/COCOA.workshop.BIOC2020/doc/IntroToCOCOA.html">http://localhost:8787/help/library/COCOA.workshop.BIOC2020/doc/IntroToCOCOA.html</a>. This is a <a href="https://github.com/rocker-org/rocker-versioned/issues/178">known bug</a>.</li>
+</ul>
+</li>
+</ul>
 </div>
 
   </div>
