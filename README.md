@@ -26,7 +26,7 @@ with the concepts and methods used in COCOA
 
 ## Workshop and Docker links
 
-* [Workshop](http://databio.org/cocoa_workshop_bioc2020/)
+* [Workshop](http://databio.org/cocoa_workshop_bioc2020/articles/IntroToCOCOA.html)
 * [Docker image](https://hub.docker.com/repository/docker/databio/cocoa_workshop_bioc2020)
 
 
